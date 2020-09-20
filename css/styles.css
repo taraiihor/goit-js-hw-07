@@ -1,0 +1,24 @@
+body {
+  width: 1200px;
+}
+
+.gallery__item {
+  display: block;
+  margin: 15px;
+}
+
+img {
+  width: 1000;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
