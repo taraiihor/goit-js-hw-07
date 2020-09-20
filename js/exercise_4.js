@@ -1,4 +1,4 @@
-const counterValue = {
+const counter = {
   value: 0,
   decrement() {
     this.value -= 1;
@@ -16,11 +16,11 @@ const refs = {
 refs.decrementBtn.addEventListener('click', function () {
   counter.decrement();
 
-  refs.valueEl.textContent = counterValue.value;
+  refs.valueEl.textContent = counter.value;
 });
 
 refs.incrementBtn.addEventListener('click', function () {
   counter.increment();
 
-  refs.valueEl.textContent = counterValue.value;
+  refs.valueEl.textContent = counter.value;
 });
