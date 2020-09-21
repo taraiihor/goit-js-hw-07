@@ -31,9 +31,9 @@ const galleryEl = document.querySelector('ul#gallery');
 // galleryEl.append(...elements);
 
 // спосіб 2 вірний
-const galleryItemMaketUp = images => {
+const galleryItemMaketUp = image => {
   return `<li class='gallery__item'>
-    <img src='${images.url}' alt='${images.alt}'>
+    <img src='${image.url}' alt='${image.alt}'>
   </li>`;
 };
 const galleryItemMaket = images.map(galleryItemMaketUp).join('');
