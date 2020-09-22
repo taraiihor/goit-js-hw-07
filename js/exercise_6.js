@@ -9,6 +9,6 @@ function blurInputFocus(event) {
     inputColor.classList.remove('invalid');
   } else {
     inputColor.classList.add('invalid');
-    inputColor.classLis t.remove('valid');
+    inputColor.classList.remove('valid');
   }
 }
